@@ -231,7 +231,8 @@ function buildGameButton(){
 	buttonClassic.addEventListener("click", function(evt) {
 		playSound('soundButton');
 		gameData.type = 'classic';
-		goPage("theme");
+		gameData.themeNum = 0; // 0 es el índice del tema que vayas a usar para el supermercado
+		goPage("game");
 	});
 
 	buttonAdventure.cursor = "pointer";
