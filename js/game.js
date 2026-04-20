@@ -587,11 +587,6 @@ function goPage(page){
 	resizeCanvas();
 }
 
-// En canvas.js, dentro de buildGameCanvas()
-buttonAdventure = new createjs.Bitmap(loader.getResult('buttonAdventure'));
-centerReg(buttonAdventure);
-buttonAdventure.visible = false; // Añade esta línea para ocultarlo
-
 /*!
  * 
  * START GAME - This is the function that runs to start game
